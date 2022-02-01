@@ -1,0 +1,244 @@
+body{
+    background-image: url("/images/background/image\ 4.svg");
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-position: center;
+    background-position-x: 450px;
+    background-position-y: 310px;
+    background-color: #E5E5E5;
+}
+/* Header - Cabeçalho */
+.img{
+    width: 20px;
+}
+
+#header-nav{
+    background: linear-gradient(89.94deg, rgba(40, 40, 40, 0.051) 0.87%, rgba(40, 40, 40, 0.017) 98.38%);
+    backdrop-filter: blur(28px);    
+    border-radius: 56px;
+}
+#header-nav{
+    margin-left: 40px;
+    margin-right: 41.5px;
+    margin-top: 24px;
+    height: 50px;
+}
+#header-nav{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    
+}
+.header-texts{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 19px;
+}
+#firstBar{
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%);
+}
+.firstBarText{
+    color: #fff;
+}
+#marcado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2F78BB;
+    border-radius: 38px;
+    width: 240px;
+    padding: 4px;
+    position: relative;
+    left: -17px;
+}
+/* Container */
+.container{
+      margin-left: 48px;
+}
+.rodape{
+    margin-top: 53px;
+    display: flex;
+}
+
+.mainText{
+    font-weight: 700;
+    size: 40px;
+    margin-top: 80px;
+    color: #2F78BB;
+}
+.rodape-img{
+    width: 18px;
+    margin-top: -13px;
+}
+.rodape-text{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    color: #373737;
+    margin-left: 14px;
+}
+::placeholder{
+    font-family: 'Poppins';
+    font-weight: 400;
+    size: 18px;
+    color: #BABABA;
+}
+.label{
+    border: none;
+    outline: none;
+    background-color: #E5E5E5;
+    border-bottom: 1px solid #000;
+    width: 120px;
+    margin-left: 10px;
+}
+.buscarNome{
+    margin-left: 60px;
+}
+.rodape-link{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    color: #2F78BB;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rodape-link{
+    width: 180px;
+    height: 30px;
+    border: none;
+    border: 1px solid #2F78BB;
+    border-radius: 5px;
+    position: relative;
+    left: 580px;
+
+}
+/*Tabela
+.tabela{
+    margin-top: 39px;
+    width: 1290px;
+    border-collapse: unset;
+    border: #E5E5E5;
+
+}
+*/
+.table-head-bg{
+    background-color: #ECECEF;
+}
+.columnText{
+    font-family: 'Inter';
+    font-weight: 600;
+    size: 16px;
+}
+.columnLeft{
+    color: #000;
+    text-align: left;
+    position: relative;
+    left: 31px;
+}
+.columnLeft::after{
+    content: "";
+    width: 0;
+    border: 1px solid #000;
+    margin-left: 35px;
+}
+.columnCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    left: -5px;
+}
+.columnRight{
+    color: #2F78BB;
+    position: relative;
+    left: -10px;
+}
+.columnRight::after{
+    content: "";
+    width: 0;
+    border: 1px solid #000;
+    position: relative;
+    right: 25px;
+}
+p{
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 16px;
+}
+.btgroup{
+    display: flex;
+    gap: 15px;
+}
+.firstBtn, .secondBtn{
+    background-color: #2F78BB;
+    color: #fff;
+    border: none;
+    padding: 7px;
+    border-radius: 10px;
+    width: 200px;
+}
+.firstBtn, .secondBtn{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    position: relative;
+    left: 850px;
+}
+#tabela{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 39px;
+}
+#tabela{
+    background-color: #9d9d9d;
+    width: 1290px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+table, td, th {    
+    border: 1px solid #9d9d9d;
+    text-align: left;
+    margin-top: px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 97.9%;
+}
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+.space{
+    width: 2.9%;
+    position: relative;
+    left: -2px;
+}
+.sspace{
+    width: 82.2%;
+    text-align: center;
+}
+#tfoot{
+    background-color: #9d9d9d;
+    width: 1290px;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+}

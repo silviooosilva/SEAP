@@ -1,0 +1,41 @@
+/* Estilização Geral */
+body{
+    background-image: url("/images/background/image\ 4.svg");
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-position: center;
+    background-position-x: 450px;
+    background-position-y: 250px;
+    background-color: #E5E5E5;
+}
+/* Header - Cabeçalho */
+.img{
+    width: 28px;
+}
+#header-nav{
+    background: linear-gradient(89.94deg, rgba(40, 40, 40, 0.051) 0.87%, rgba(40, 40, 40, 0.017) 98.38%);
+    backdrop-filter: blur(28px);    
+    border-radius: 56px;
+}
+#header-nav{
+    margin-left: 40px;
+    margin-right: 41.5px;
+    margin-top: 24px;
+    height: 48.28px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    column-gap: 25px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.header-texts{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 19px;
+}
+/*Final da Estilização */
